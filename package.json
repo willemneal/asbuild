@@ -1,6 +1,6 @@
 {
   "name": "asbuild",
-  "version": "0.2.0",
+  "version": "0.3.0-0",
   "bin": {
     "asb": "bin/asb",
     "asbuild": "bin/asb",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@as-pect/cli": "^6.0.0",
-    "assemblyscript": "^0.18.31",
+    "assemblyscript": "^0.19.6",
     "chalk": "^4.1.1",
     "eslint": "^7.17.0",
     "yargs": "^15.4.1"
@@ -49,7 +49,8 @@
   "files": [
     "dist/",
     "index.js",
-    "bin/"
+    "bin/",
+    "asc/"
   ],
   "mocha": {
     "v8-experimental-wasi-unstable-preview1": true,
